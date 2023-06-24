@@ -1,6 +1,7 @@
 .section {
     padding: 1rem;
     overflow: auto;
+    min-width: 10rem;
 }
 
 .title {
