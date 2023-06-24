@@ -1,0 +1,8 @@
+.section {
+    padding: 1rem;
+    overflow: auto;
+}
+
+.title {
+    margin-top: 0;
+}

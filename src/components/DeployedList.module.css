@@ -1,0 +1,23 @@
+.deployedList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.app {
+    border: 1px solid gray;
+    border-radius: .5rem;
+    padding: 1.5rem;
+}
+
+.app:hover {
+    border: 1px solid white;
+}
+
+.title {
+    display: block;
+    color: var(--font-color-1);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+

@@ -1,0 +1,19 @@
+.activityList {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    padding: 1rem;
+}
+
+.activityWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+
+.timestamp {
+    font-size: .8rem;
+    color:darkgray;
+}

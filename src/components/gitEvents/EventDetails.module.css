@@ -1,0 +1,24 @@
+.entryList {
+    list-style-type: none;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin: .3rem;
+    font-size: .8rem;
+}
+
+.link {
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.message {
+    color: var(--font-color-2);
+}

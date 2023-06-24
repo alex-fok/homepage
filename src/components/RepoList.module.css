@@ -1,0 +1,27 @@
+
+.repoList {
+    display: flex;
+    flex-direction: column;
+}
+
+.repoListItem {
+    display: block;
+    padding: 1rem;
+}
+
+.repoListItem:hover {
+    cursor: pointer;
+    background-color: #2F2F2F;
+    text-decoration: none;
+}
+
+.htmlLink {
+    color: var(--font-color-1);
+}
+
+.info {
+    margin: .5rem;
+    color: darkgray;
+    font-size: .8rem;
+    text-decoration: none;
+}
