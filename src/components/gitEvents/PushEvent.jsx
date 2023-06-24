@@ -10,14 +10,14 @@ function PushEvent (props) {
         },
         message: commit.message
     }));
-    
+
     return (
         <div>
             <span>
                 {actor.display_login} pushed {payload.commits.length} commit{payload.commits.length > 1 ? 's' : ''} to 
                 <a href={`https://github.com/${repo.name}`}>
                     {repo.name}
-                </a>
+                </a>{' '}({payload.ref.slice(payload.ref.lastIndexOf('/') + 1, payload.ref.length)})
             </span>
             <EventDetails entries={entries}/>
         </div>
