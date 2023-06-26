@@ -1,4 +1,9 @@
 .App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Content {
   display: grid;
   grid-template-columns: auto 45rem auto;
 }
