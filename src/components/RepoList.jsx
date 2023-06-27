@@ -8,7 +8,7 @@ function RepoList() {
     const [repos, setRepos] = createSignal()
     
     onMount(async() => {
-        const r = await fetch('http://api.github.com/users/alex-fok/repos?sort=pushed')
+        const r = await fetch('https://api.github.com/users/alex-fok/repos?sort=pushed')
         const rJson = await r.json()
         rJson
         setRepos(rJson.slice(0, 5))
