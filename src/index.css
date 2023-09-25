@@ -24,7 +24,6 @@ a:hover {
 
 ::-webkit-scrollbar {
   width: 12px;
-
 }
 
 ::-webkit-scrollbar-track {
@@ -34,4 +33,8 @@ a:hover {
 ::-webkit-scrollbar-thumb {
   background-color: #2F2F2F;
   border-radius: 6px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #2F2F2F;
 }

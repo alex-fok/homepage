@@ -3,6 +3,15 @@
     flex-direction: column;
     row-gap: .5rem;
     padding: 1rem;
+    max-height: 76vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.activityList::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
 .activityWrapper {
@@ -11,7 +20,6 @@
     justify-content: space-between;
     column-gap: 2rem;
 }
-
 
 .timestamp {
     font-size: .8rem;
